@@ -15,7 +15,7 @@ public class Taskone{
     while (energy>0 ){
         System.out.println("Enter your Guessing number");
        int guess=sc.nextInt();
-       //System.out.println("Congratulations! You Guessed Currect Number");
+      
 if (guess==secretNumber) {
 	System.out.println("Congratulations! You Guessed Currect Number");
         break;
